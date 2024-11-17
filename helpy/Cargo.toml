@@ -1,0 +1,25 @@
+[package]
+name = "frytg-orga-helpy"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dan <contact@frytg.com>"]
+
+# disable automatic discovery
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1.0", features = ["full"] }
+serde_json = "1.0"
+
+# configure build binaries
+[[bin]]
+name = "bunny-regions"
+path = "src/bunny-regions.rs"
+
+[[bin]]
+name = "scw-runtimes"
+path = "src/scw-runtimes.rs"

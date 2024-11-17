@@ -1,6 +1,6 @@
-# `@frytg/scripty-ip`
+# frytg / ip
 
-This simple script returns the IP address and other parameters of a request. It is designed as a test for using Deno + Hono via [esm.sh](https://esm.sh).
+This simple script returns the IP address and other parameters of a request. It is designed as a test for using [Deno](https://deno.com) + [Hono](https://hono.dev) via [esm.sh](https://esm.sh).
 
 ## Usage
 

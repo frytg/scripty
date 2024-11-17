@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"exactOptionalPropertyTypes": true,
+		"useUnknownInCatchVariables": true,
+		"noImplicitOverride": true,
+		"noUncheckedIndexedAccess": true
+	},
+	"exclude": [".git"],
+	"lint": {
+		"rules": {
+			"include": [
+				"camelcase",
+				"no-sync-fn-in-async-fn",
+				"single-var-declarator",
+				"verbatim-module-syntax",
+				"no-console"
+			]
+		}
+	},
+	"workspace": ["./ip"]
+}

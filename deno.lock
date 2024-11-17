@@ -1,0 +1,82 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@biomejs/biome@^1.9.4": "1.9.4",
+    "npm:@types/node@^22.9.0": "22.9.0"
+  },
+  "npm": {
+    "@biomejs/biome@1.9.4": {
+      "integrity": "sha512-1rkd7G70+o9KkTn5KLmDYXihGoTaIGO9PIIN2ZB7UJxFrWw04CZHPYiMRjYsaDvVV7hP1dYNRLxSANLaBFGpog==",
+      "dependencies": [
+        "@biomejs/cli-darwin-arm64",
+        "@biomejs/cli-darwin-x64",
+        "@biomejs/cli-linux-arm64",
+        "@biomejs/cli-linux-arm64-musl",
+        "@biomejs/cli-linux-x64",
+        "@biomejs/cli-linux-x64-musl",
+        "@biomejs/cli-win32-arm64",
+        "@biomejs/cli-win32-x64"
+      ]
+    },
+    "@biomejs/cli-darwin-arm64@1.9.4": {
+      "integrity": "sha512-bFBsPWrNvkdKrNCYeAp+xo2HecOGPAy9WyNyB/jKnnedgzl4W4Hb9ZMzYNbf8dMCGmUdSavlYHiR01QaYR58cw=="
+    },
+    "@biomejs/cli-darwin-x64@1.9.4": {
+      "integrity": "sha512-ngYBh/+bEedqkSevPVhLP4QfVPCpb+4BBe2p7Xs32dBgs7rh9nY2AIYUL6BgLw1JVXV8GlpKmb/hNiuIxfPfZg=="
+    },
+    "@biomejs/cli-linux-arm64-musl@1.9.4": {
+      "integrity": "sha512-v665Ct9WCRjGa8+kTr0CzApU0+XXtRgwmzIf1SeKSGAv+2scAlW6JR5PMFo6FzqqZ64Po79cKODKf3/AAmECqA=="
+    },
+    "@biomejs/cli-linux-arm64@1.9.4": {
+      "integrity": "sha512-fJIW0+LYujdjUgJJuwesP4EjIBl/N/TcOX3IvIHJQNsAqvV2CHIogsmA94BPG6jZATS4Hi+xv4SkBBQSt1N4/g=="
+    },
+    "@biomejs/cli-linux-x64-musl@1.9.4": {
+      "integrity": "sha512-gEhi/jSBhZ2m6wjV530Yy8+fNqG8PAinM3oV7CyO+6c3CEh16Eizm21uHVsyVBEB6RIM8JHIl6AGYCv6Q6Q9Tg=="
+    },
+    "@biomejs/cli-linux-x64@1.9.4": {
+      "integrity": "sha512-lRCJv/Vi3Vlwmbd6K+oQ0KhLHMAysN8lXoCI7XeHlxaajk06u7G+UsFSO01NAs5iYuWKmVZjmiOzJ0OJmGsMwg=="
+    },
+    "@biomejs/cli-win32-arm64@1.9.4": {
+      "integrity": "sha512-tlbhLk+WXZmgwoIKwHIHEBZUwxml7bRJgk0X2sPyNR3S93cdRq6XulAZRQJ17FYGGzWne0fgrXBKpl7l4M87Hg=="
+    },
+    "@biomejs/cli-win32-x64@1.9.4": {
+      "integrity": "sha512-8Y5wMhVIPaWe6jw2H+KlEm4wP/f7EW3810ZLmDlrEEy5KvBsb9ECEfu/kMWD484ijfQ8+nIi0giMgu9g1UAuuA=="
+    },
+    "@types/node@22.9.0": {
+      "integrity": "sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.19.8": {
+      "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
+    }
+  },
+  "remote": {
+    "https://esm.sh/jsr/@hono/hono@4.6.10": "cf6e6ff70376b2ed1dc2c03b0ea0e0ddb94a750b9924731c8c1f355d028cffb2",
+    "https://esm.sh/jsr/@hono/hono@4.6.10/cors": "dc14db48bfb6d71008ebfd7c8eb51aa46b7b3e0f505348fca3693d3fdd32abe1",
+    "https://esm.sh/jsr/@hono/hono@4.6.10/etag": "c55cd5ff11fe9c8c16e49fc94064a4c6d949f6b0f9bc1731fb4498765ed0a8a2",
+    "https://esm.sh/jsr/@hono/hono@4.6.10/pretty-json": "9dc73628b94c63f8bcf804e1881939ede133f98a57913f46759159a60e54c464",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/cors.js": "fbc5b1adc0d2c86c31cd3d20182bc1faf313cddae89e2bb1da3b61afe09b9bd9",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/etag.js": "f39b885b71ea152b7a2ea2aa5a2201abd8301e6be1d294f10822c2f70b80f9cf",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/hono-base.js": "2ad8ffc6f9e52c3d0f300a9633ac0359fb16b474fa0cc46f5d99b549b809271b",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/hono__hono.mjs": "c1bea804a3fec7e885ea3ea3bfeac86eca252b816d4ac70c53d9099fc51026c6",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/pretty-json.js": "dc4b6e51d5f5d7eb225915f39e2036d2a2b5d2b0ca4a19d2b57ec5166c14e5d0",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/request.js": "2527a9eaccc9507e22b4957f7e0aa9693a06ffe1742a5f1d879b934749fae51c",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/router.js": "6a68f950b009de40bf885125b69c7411244d6d1a17f232cf5eb656b36edbb12f",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/router/reg-exp-router.js": "46e2bb114d1e845d0dab41a5e291f474155c5bed77845b158ff1f8a83a6b01fc",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/router/smart-router.js": "0f6f98361f32f17caf439c8b4824f6856ca5f31a3f20e615a78fb1a97503a107",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/router/trie-router.js": "64b9cbb405cac8fee816a37cd21b0536da1701764a6122dc885b81858166b443",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/utils/body.js": "2698eef74153030f395ca86560d5af63786d103af17d82eae23ccf6ae3b43fab",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/utils/html.js": "cef8ce2d9fc48aabf06c0935eb7e4a62d117c278bf084686113bd6cde835a6e6",
+    "https://esm.sh/v135/@jsr/hono__hono@4.6.10/denonext/utils/url.js": "0f5d76b7f749814518f38f3dfa29cd6f7cfadb4d263271ef944e474356104b1c"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@biomejs/biome@^1.9.4",
+        "npm:@types/node@^22.9.0"
+      ]
+    }
+  }
+}
